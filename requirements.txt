@@ -1,0 +1,22 @@
+# Cursor sync → MySQL
+requests>=2.31.0
+mysql-connector-python>=8.2.0
+
+# Shared
+python-dotenv>=1.0.0
+
+# Profile pipeline (LLM, Pinecone, local embeddings)
+openai>=1.0.0
+pinecone>=5.0.0
+sentence-transformers>=2.2.0
+
+# Evidence summarizer (PDF/DOCX/CSV/images via HF/Novita)
+huggingface_hub>=0.20.0
+httpx>=0.27.0
+pandas>=2.0.0
+Pillow>=10.0.0
+pypdf>=4.0.0
+python-docx>=1.0.0
+
+# Web UI
+streamlit>=1.28.0
